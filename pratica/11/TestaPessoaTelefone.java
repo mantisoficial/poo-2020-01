@@ -5,7 +5,6 @@ public class TestaPessoaTelefone {
 
         Pessoa p = new Pessoa("Zeca dos Telefones");
 
-        // Coloca sob controle o estoque do Zeca
         for (int i = 1; i <= 9; i++) {
             p.adicionaTelefone(new Telefone(Integer.toString(i)));
         }
